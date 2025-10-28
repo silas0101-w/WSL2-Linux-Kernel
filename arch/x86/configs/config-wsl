@@ -6885,7 +6885,8 @@ CONFIG_RAS_CEC=y
 #
 # Android
 #
-# CONFIG_ANDROID_BINDER_IPC is not set
+# CONFIG_ANDROID_BINDER_IPC=y
+CONFIG_ANDROID_BINDER_DEVICES="binder,hwbinder,vndbinder"
 # end of Android
 
 CONFIG_LIBNVDIMM=y
